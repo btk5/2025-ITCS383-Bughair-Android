@@ -19,7 +19,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v3
         with:
           # ADD THIS: Point to your subfolder
-          projectBaseDir: ./your-subfolder-name 
+          projectBaseDir: ./SpaceHub-Android
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io
