@@ -4,7 +4,7 @@ Native Android client for the **SpaceHub Co-Working Space Management System**.
 
 > **Main repository:** (https://github.com/Chayocha23/2025-ITCS383-Emerald.git)
 
-> **Backend (Render):** https://github.com/btk5/2025-ITCS383-Bughair-Android.git)
+> **Backend (Render):** (https://github.com/btk5/2025-ITCS383-Bughair-Android.git)
 
 ---
 
