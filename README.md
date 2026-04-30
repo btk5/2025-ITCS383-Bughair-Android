@@ -2,9 +2,9 @@
 
 Native Android client for the **SpaceHub Co-Working Space Management System**.
 
-> **Main repository:** [https://github.com/ICT-Mahidol/2025-ITCS383-Emerald  ](https://github.com/Chayocha23/2025-ITCS383-Emerald.git)
-
-> **Backend (Render):** [https://two025-itcs383-emerald-backend.onrender.com](https://two025-itcs383-emerald-backend.onrender.com)
+> **Main repository:** [[https://github.com/ICT-Mahidol/2025-ITCS383-Emerald  ](https://github.com/Chayocha23/2025-ITCS383-Emerald.git)
+](https://github.com/Chayocha23/2025-ITCS383-Emerald.git)
+> **Backend (Render):** [[https://two025-itcs383-emerald-backend.onrender.com](https://two025-itcs383-emerald-backend.onrender.com)](https://github.com/btk5/2025-ITCS383-Bughair-Android.git)
 
 ---
 
@@ -64,15 +64,15 @@ All web application features are available on mobile:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android.git](https://github.com/Poschapat/2025-ITCS383-Bughair-Android.git)
-   cd 2025-ITCS383-Bughair-Android
+   git clone [[https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android.git](https://github.com/Poschapat/2025-ITCS383-Bughair-Android.git)](https://github.com/btk5/2025-ITCS383-Bughair-Android.git)
+   cd SpaceHub-Android
    ```
 
 2. Open in Android Studio → File → Open
 
 3. Set the backend URL in `RetrofitClient.kt`:
    ```kotlin
-   private const val BASE_URL = "https://itcs383-emerald.onrender.com/"
+   private const val BASE_URL = "https://two025-itcs383-emerald-backend.onrender.com/"
    ```
 
 4. Run on emulator or physical device (Android 7.0+ / API 24+)
@@ -152,13 +152,4 @@ open app/build/reports/jacoco/jacocoTestReport/html/index.html
 Total: **60 test cases** across 4 test files, targeting **>90% coverage** on ViewModel and Repository layers.
 
 ---
-
-## Change Requests Implemented (Mobile side)
-
-| CR | Type | Description |
-|---|---|---|
-| CR-03 | Adaptive | API compatibility for Android (JSON response alignment) |
-| CR-04 | Adaptive | Responsive layout for various screen sizes |
-| CR-06 | Perfective | Quick reply buttons in SupportFragment |
-
 
