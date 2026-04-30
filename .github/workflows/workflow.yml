@@ -1,0 +1,41 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  # ────────────────────────────────────
+  # CI — Lint, Test & Build Docker Image
+  # ────────────────────────────────────
+  ci:
+    name: CI — Lint & Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: implementations/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./implementations
+        run: npm ci
+
+      - name: Lint check
+        working-directory: ./implementations
+        run: npm run lint
+
+      - name: Build Docker image (test)
+        run: docker build -t $(echo "${{ env.IMAGE_NAME }}" | tr '[:upper:]' '[:lower:]'):test ./implementations
