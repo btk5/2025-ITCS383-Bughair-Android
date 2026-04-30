@@ -1,12 +1,10 @@
-<<<<<<< HEAD
 # SpaceHub Android App
 
 Native Android client for the **SpaceHub Co-Working Space Management System**.
 
-[![Android CI](https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android/actions/workflows/android-ci.yml/badge.svg)](https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android/actions/workflows/android-ci.yml)
+> **Main repository:** [https://github.com/ICT-Mahidol/2025-ITCS383-Emerald  ](https://github.com/Chayocha23/2025-ITCS383-Emerald.git)
 
-> **Main repository:** https://github.com/ICT-Mahidol/2025-ITCS383-Emerald  
-> **Backend (Render):** https://itcs383-emerald.onrender.com
+> **Backend (Render):** [https://itcs383-emerald.onrender.com](https://two025-itcs383-emerald-backend.onrender.com)
 
 ---
 
@@ -66,7 +64,7 @@ All web application features are available on mobile:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android.git
+   git clone [https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android.git](https://github.com/Poschapat/2025-ITCS383-Bughair-Android.git)
    cd 2025-ITCS383-Bughair-Android
    ```
 
@@ -163,17 +161,4 @@ Total: **60 test cases** across 4 test files, targeting **>90% coverage** on Vie
 | CR-04 | Adaptive | Responsive layout for various screen sizes |
 | CR-06 | Perfective | Quick reply buttons in SupportFragment |
 
----
-
-## Member 1 Contributions
-
-- Android project architecture setup (MVVM)
-- All 5 customer screens (Dashboard, Booking, My Bookings, Membership, Support)
-- Employee dashboard (reservations + ticket management)
-- Manager dashboard (daily summary)
-- Notification polling system (30-second interval)
-- 60 unit tests (AuthViewModel, CustomerViewModel, SessionManager, Repository)
-- GitHub Actions CI/CD pipeline
-- README documentation
-=======
 
