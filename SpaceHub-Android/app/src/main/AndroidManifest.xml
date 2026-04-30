@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:label="@string/app_name"
+        
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpaceHub"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".ui.auth.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SpaceHub.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SpaceHub.NoActionBar" />
+
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SpaceHub.NoActionBar" />
+
+        <activity
+            android:name=".ui.customer.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SpaceHub.NoActionBar" />
+
+        <activity
+            android:name=".ui.employee.EmployeeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SpaceHub.NoActionBar" />
+
+        <activity
+            android:name=".ui.manager.ManagerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SpaceHub.NoActionBar" />
+
+    </application>
+
+</manifest>
