@@ -64,7 +64,7 @@ All web application features are available on mobile:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android.git
+   git clone [https://github.com/ICT-Mahidol/2025-ITCS383-Bughair-Android.git](https://github.com/Poschapat/2025-ITCS383-Bughair-Android.git)
    cd 2025-ITCS383-Bughair-Android
    ```
 
