@@ -1,25 +1,38 @@
-name: SonarQube
+name: Project Maintenance CI
+
 on:
   push:
     branches:
-      - main  # Changed from master to main
+      - main  # Verify if your default branch is 'main' or 'master'
   pull_request:
-    types: [opened, synchronize, reopened]
+    branches:
+      - main
 
 jobs:
-  sonarqube:
-    name: SonarQube
+  build-and-analyze:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./SpaceHub-Android # Change this to your actual folder name
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 
 
-      - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
         with:
-          # ADD THIS: Point to your subfolder
-          projectBaseDir: ./SpaceHub-Android
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'gradle'
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      # This runs tests AND SonarQube in one go, solving the binary path error
+      - name: Build, Test and Analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: https://sonarcloud.io
+        run: ./gradlew test sonar --info
