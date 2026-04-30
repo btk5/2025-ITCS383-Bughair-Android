@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_fragment_my_bookings.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/fragment_my_bookings.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.spacehub.app-main-52:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_fragment_dashboard.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_fragment_support.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/fragment_support.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_fragment_booking.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/fragment_booking.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_item_reservation.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/item_reservation.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_fragment_membership.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/fragment_membership.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_item_employee_ticket.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/item_employee_ticket.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_activity_manager.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/activity_manager.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/drawable_badge_bg.xml.flat",
+        "source": "com.spacehub.app-main-52:/drawable/badge_bg.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_activity_register.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_fragment_profile.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/navigation_nav_graph.xml.flat",
+        "source": "com.spacehub.app-main-52:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_item_booking.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/item_booking.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_activity_employee.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/activity_employee.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.spacehub.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/drawable_avatar_bg.xml.flat",
+        "source": "com.spacehub.app-main-52:/drawable/avatar_bg.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_activity_main.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_item_ticket.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/item_ticket.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/layout_activity_login.xml.flat",
+        "source": "com.spacehub.app-main-52:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.spacehub.app-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.spacehub.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]
